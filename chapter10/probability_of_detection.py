@@ -25,7 +25,7 @@ for num_civs in range(2, MAX_CIVS + 2, CIV_STEP_SIZE):  # number of civs to mode
 
     prob = 1 - (
         num_single_civs / (num_civs * TRIALS)
-    )  # probability of multiple civilizations per locatoin for the current number of civilizaitons being distributed
+    )  # probability of multiple civilizations per location for the current number of civilizaitons being distributed
 
     # print ratio of civs-per-volume vs. probability of 2+ civs per location
     print("{:.4f}  {:.4f}".format(civs_per_vol, prob))
